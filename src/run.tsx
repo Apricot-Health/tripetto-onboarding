@@ -124,13 +124,12 @@ export async function run(props: IAutoscroll): Promise<IAutoscrollRunner> {
             JSON.parse(localStorage.getItem(`${PACKAGE_NAME}-${fingerprint(definition || cache.definition)}`) || "null") || undefined;
 
         // window.addEventListener("unload", localSnapshot.save);
-        window.addEventListener("pagehide", event => { 
-            localSnapshot.save
-        });
-        document.addEventListener("visibilitychange", event => {
-            localSnapshot.save
-        }
-        );
+        // window.addEventListener("pagehide", event => { 
+        //     localSnapshot.save
+        // });
+        // document.addEventListener("visibilitychange", event => {
+        //     localSnapshot.save
+        // });
     }
 
     ReactDOM.render(
