@@ -152,7 +152,7 @@ export async function run(props: IAutoscroll): Promise<IAutoscrollRunner> {
             onTouch={props.onTouch}
             onAction={props.onAction}
             onImport={props.onImport}
-            onChange={props.onChange}
+            onChange={localSnapshot.save}
             onData={props.onData}
             onSubmit={props.onSubmit}
             onComplete={props.onComplete}
