@@ -3,6 +3,7 @@ import {IAutoscrollStyles} from "tripetto-runner-autoscroll";
 import {IDefinition, Export} from "tripetto-runner-foundation";
 import {run} from "./run"
 
+
 const {definition, onSubmit, styles} = Services.init({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZ1gvMnVYbVk0WXJHK0hZU3VPTk93OUdjNzBZOGZyaU5xZS8rYTN6Tkpobz0iLCJkZWZpbml0aW9uIjoiWlZHSkNJTUlGUnhsc3VKVkxXK0RsQzM4TmNaMGQ4VFJXQ0FKY0dPWUl2MD0iLCJ0eXBlIjoiY29sbGVjdCJ9.zinGd03nlhzCt5m2QT4qGBlC8CXis0PYAvZJHL83LYc"});
 const runnerElement = document.body;
 const SNAPSHOT = "tripetto-lesson-survey-snapshot";
