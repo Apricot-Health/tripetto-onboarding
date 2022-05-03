@@ -3,9 +3,9 @@ import {IAutoscrollStyles} from "tripetto-runner-autoscroll";
 import {IDefinition, Export} from "tripetto-runner-foundation";
 import {run} from "./run"
 
-const {definition, onSubmit, styles} = Services.init({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiTHJjSTdMY0FsQmZuNjkwdVJiOEVScENTdmtHK2lNWnRCTEJXMmpFdTZtMD0iLCJkZWZpbml0aW9uIjoiZlUyK3BvakJra1lmUWxRaXlOYXlVWXRIMGNLYUJQa1BlTmEwTzkyN3hkdz0iLCJ0eXBlIjoiY29sbGVjdCJ9.6Otd8UDsB-rzFnrifL9AsG5RVYqL2c5Tl2BQTz30ELo"});
+const {definition, onSubmit, styles} = Services.init({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZ1gvMnVYbVk0WXJHK0hZU3VPTk93OUdjNzBZOGZyaU5xZS8rYTN6Tkpobz0iLCJkZWZpbml0aW9uIjoiQnZUS2F2T1R5QVlUQXZ4WnVzS29kZGl6Q291YWVDMmMyOUFNTHFsN1p3ND0iLCJ0eXBlIjoiY29sbGVjdCJ9.iTU8Hg6lv1AwxoNxVJXW629EP2SJf92apAnZW-fzBjk"});
 const runnerElement = document.body;
-const SNAPSHOT = "tripetto-poc-snapshot";
+const SNAPSHOT = "tripetto-lesson-survey-snapshot";
 const snapshot = JSON.parse(localStorage.getItem(SNAPSHOT) || "null") || undefined;
 
 const stylesLocal: IAutoscrollStyles = {
@@ -43,7 +43,7 @@ const stylesLocal: IAutoscrollStyles = {
 };
 const definitionLocal: IDefinition = {
     "name": "41 correct",
-    "epilogue": {"redirectUrl": "https://example.com/"},
+    "epilogue": {"redirectUrl": "https://apriwell.com/app/surveyComplete"},
     "clusters": [{
         "id": "f8aaaf2eaa88991108a6d6c0c6e33339d29dd5a0d40d661fe555aba6014cd698",
         "nodes": [{
