@@ -3,7 +3,7 @@ import {IAutoscrollStyles} from "tripetto-runner-autoscroll";
 import {IDefinition, Export} from "tripetto-runner-foundation";
 import {run} from "./run"
 
-const {definition, onSubmit, styles} = Services.init({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZ1gvMnVYbVk0WXJHK0hZU3VPTk93OUdjNzBZOGZyaU5xZS8rYTN6Tkpobz0iLCJkZWZpbml0aW9uIjoiQnZUS2F2T1R5QVlUQXZ4WnVzS29kZGl6Q291YWVDMmMyOUFNTHFsN1p3ND0iLCJ0eXBlIjoiY29sbGVjdCJ9.iTU8Hg6lv1AwxoNxVJXW629EP2SJf92apAnZW-fzBjk"});
+const {definition, onSubmit, styles} = Services.init({token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZ1gvMnVYbVk0WXJHK0hZU3VPTk93OUdjNzBZOGZyaU5xZS8rYTN6Tkpobz0iLCJkZWZpbml0aW9uIjoiWlZHSkNJTUlGUnhsc3VKVkxXK0RsQzM4TmNaMGQ4VFJXQ0FKY0dPWUl2MD0iLCJ0eXBlIjoiY29sbGVjdCJ9.zinGd03nlhzCt5m2QT4qGBlC8CXis0PYAvZJHL83LYc"});
 const runnerElement = document.body;
 const SNAPSHOT = "tripetto-lesson-survey-snapshot";
 const snapshot = JSON.parse(localStorage.getItem(SNAPSHOT) || "null") || undefined;
